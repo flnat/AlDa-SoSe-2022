@@ -1,3 +1,5 @@
+package Aufgabe1;
+
 public class GewichteterUF {
 
     private int[] id;

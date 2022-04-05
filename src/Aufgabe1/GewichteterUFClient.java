@@ -1,3 +1,5 @@
+package Aufgabe1;
+
 import java.io.IOException;
 
 import edu.princeton.cs.algs4.In;
