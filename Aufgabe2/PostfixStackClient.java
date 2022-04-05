@@ -1,2 +1,9 @@
-package PACKAGE_NAME;public class PostfixStackClient {
+import java.util.Stack;
+
+public class PostfixStackClient {
+    Stack <String> operation = new Stack<String>();
+    Stack <Double> value = new Stack<Double>();
+
+
+
 }
