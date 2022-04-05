@@ -7,10 +7,10 @@ import edu.princeton.cs.algs4.Stopwatch;
 public class GewichteterUFClient {
 
     public static void main(String[] args) throws IOException {
-        performanceTest("C:\\Users\\natte\\OneDrive\\Studium\\Master\\2. Semester\\Algorithmen und Datenstrukturen\\Übungsschein\\resources\\randInts05.txt");
-        performanceTest("C:\\Users\\natte\\OneDrive\\Studium\\Master\\2. Semester\\Algorithmen und Datenstrukturen\\Übungsschein\\resources\\randInts1.txt");
-        performanceTest("C:\\Users\\natte\\OneDrive\\Studium\\Master\\2. Semester\\Algorithmen und Datenstrukturen\\Übungsschein\\resources\\randInts4.txt");
-        performanceTest("C:\\Users\\natte\\OneDrive\\Studium\\Master\\2. Semester\\Algorithmen und Datenstrukturen\\Übungsschein\\resources\\randInts8.txt");
+        performanceTest("resources//randInts05.txt");
+        performanceTest("resources//randInts1.txt");
+        performanceTest("resources//randInts4.txt");
+        performanceTest("resources//randInts8.txt");
     }
 
 
