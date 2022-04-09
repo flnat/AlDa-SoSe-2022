@@ -1,6 +1,5 @@
 package Aufgabe2;
 
-import java.util.Stack;
 
 public class PostfixCalculatorClient {
     public static void main(String[] args) {
