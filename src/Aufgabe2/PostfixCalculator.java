@@ -53,6 +53,7 @@ public class PostfixCalculator {
                 }
             }
         }
+        expressionParser.close();
         return operands.pop();
     }
 }

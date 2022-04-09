@@ -1,7 +1,5 @@
 package Aufgabe2;
 
-import java.util.Random;
-import java.util.LinkedList;
 
 import edu.princeton.cs.algs4.*;
 
