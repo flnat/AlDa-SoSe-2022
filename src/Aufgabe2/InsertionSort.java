@@ -1,6 +1,6 @@
 package Aufgabe2;
 
-public class InsertionSort {
+public class InsertionSort extends SortingAlgorithm {
     //Implementiert nach Sedgewick - Algorithms Kapitel 2
 
     public static <T extends Comparable<T>> T[] sort(T[] a) {
@@ -11,24 +11,5 @@ public class InsertionSort {
             }
         }
         return a;
-    }
-
-    private static <T extends Comparable<T>> boolean less(T v, T w) {
-        return v.compareTo(w) < 0;
-    }
-
-    private static <T extends Comparable<T>> void exchange(T[] a, int i, int j) {
-        T t = a[i];
-        a[i] = a[j];
-        a[j] = t;
-    }
-
-    private static <T extends Comparable<T>>  boolean isSorted(T[] a) {
-        for (int i = 0; i < a.length; i++) {
-            if (less(a[i], a[i - 1])) {
-                return false;
-            }
-        }
-        return true;
     }
 }
