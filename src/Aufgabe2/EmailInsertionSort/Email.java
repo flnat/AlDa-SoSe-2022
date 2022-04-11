@@ -1,4 +1,4 @@
-package Aufgabe2;
+package Aufgabe2.EmailInsertionSort;
 
 import java.util.Random;
 

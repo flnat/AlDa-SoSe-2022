@@ -1,4 +1,4 @@
-package Aufgabe2;
+package Aufgabe2.EmailInsertionSort;
 
 
 import edu.princeton.cs.algs4.*;

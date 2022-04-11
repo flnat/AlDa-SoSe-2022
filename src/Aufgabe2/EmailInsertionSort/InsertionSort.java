@@ -1,4 +1,6 @@
-package Aufgabe2;
+package Aufgabe2.EmailInsertionSort;
+
+import Aufgabe2.EmailInsertionSort.SortingAlgorithm;
 
 public class InsertionSort extends SortingAlgorithm {
     //Implementiert nach Sedgewick - Algorithms Kapitel 2

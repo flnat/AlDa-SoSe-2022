@@ -1,4 +1,4 @@
-package Aufgabe2;
+package Aufgabe2.PostfixCalc;
 
 import java.util.Stack;
 import java.util.Scanner;

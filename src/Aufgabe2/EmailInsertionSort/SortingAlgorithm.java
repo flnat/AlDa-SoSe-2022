@@ -1,4 +1,4 @@
-package Aufgabe2;
+package Aufgabe2.EmailInsertionSort;
 
 public abstract class SortingAlgorithm {
 
