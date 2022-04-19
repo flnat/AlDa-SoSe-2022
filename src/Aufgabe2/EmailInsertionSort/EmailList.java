@@ -21,7 +21,7 @@ public class EmailList {
 
     public void sortEmails() {
         //Implementiert InsertionSort über die einzelnen Noten
-        this.emails = (Email[]) InsertionSort.sort(this.emails);
+        InsertionSort.sort(this.emails);
     }
 
 
