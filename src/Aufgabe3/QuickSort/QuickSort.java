@@ -5,6 +5,7 @@ import edu.princeton.cs.algs4.StdRandom;
 
 public class QuickSort extends SortingAlgorithm {
     public static <T extends Comparable<T>> void sort(T[] a) {
+        StdRandom.shuffle(a);
         sort(a, 0, a.length - 1);
     }
 
@@ -21,23 +22,26 @@ public class QuickSort extends SortingAlgorithm {
         int i = low;
         int j = high + 1;
 
+        T pivotElement = a[low];
+
         while (true) {
-            while (a[--j].compareTo(a[low]) > 0) {
-                if (j == low) {
+            while (less(a[++i], pivotElement)) {
+                if (i == high) {
                     break;
                 }
             }
-            while (a[++i].compareTo(a[low]) < 0) {
-                if (i == high) {
+            while (less(pivotElement, a[--j])) {
+                if (j == low) {
                     break;
                 }
             }
             if (i >= j) {
                 break;
             }
+            exchange(a, i, j);
         }
-
         exchange(a, low, j);
         return j;
+
     }
 }
