@@ -12,5 +12,4 @@ public abstract class SortingAlgorithm {
         a[j] = t;
     }
 
-
 }
