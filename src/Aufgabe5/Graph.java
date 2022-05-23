@@ -25,4 +25,18 @@ public class Graph
     }
     public Iterable<Edge> adj(int v)
     { return adj[v]; }
+
+    @Override
+    public String toString(){
+        StringBuilder stringBuilder = new StringBuilder();
+        for (int i = 0; i <adj.length; i++){
+            stringBuilder.append("Node ").append(i);
+            stringBuilder.append("\n");
+            stringBuilder.append(adj[i].toString());
+            stringBuilder.append("\n");
+        }
+        return stringBuilder.toString();
+    }
+
+
 }

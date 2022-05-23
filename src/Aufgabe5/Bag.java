@@ -22,6 +22,24 @@ public class Bag<Item> implements Iterable<Item> {
         return new ListIterator();
     }
 
+    private String toString(Node node) {
+        if (node == null) {
+            return "";
+        }
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append(node.item);
+        stringBuilder.append("\n");
+        if (node.next != null) {
+            stringBuilder.append(toString(node.next));
+        }
+        return stringBuilder.toString();
+    }
+
+    @Override
+    public String toString() {
+        return toString(this.first);
+    }
+
     private class ListIterator implements Iterator<Item> {
         private Node current = first;
 

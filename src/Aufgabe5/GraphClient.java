@@ -16,6 +16,9 @@ public class GraphClient {
         graph.addEdge(4, 5, 5);
         graph.addEdge(3, 5, 3);
 
+        System.out.println(graph);
+
+
 
     }
 }
